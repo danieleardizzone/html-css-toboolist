@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+#b-button{
+    margin-left: 45px;
+}
+
+.dad-list{
+    padding-left: 40px;
+    list-style-type: none;
+    line-height: 2.5em;
+    margin-bottom: 50px;
+}
+
+.son-list{
+    padding-left: 20px;
+    list-style-type: none;
+}
+
