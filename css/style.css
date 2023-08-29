@@ -10,32 +10,70 @@
     margin-bottom: 30px;
 }
 
+main{
+    background-color: #F6F8F9;
+}
+
 .container{
     max-width: 800px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white;
+}
+
+#container-buttons{
+    border-bottom: 2px solid #F6F8F9;
 }
 
 .buttons{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 13%;
 }
 
 #b-button{
+    color: white;
     margin-left: 45px;
+    background-color: #47ADF1;
+    border: 2px solid #47ADF1;
+}
+
+#w-button{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
 }
 
 .dad-list{
     padding-left: 40px;
     list-style-type: none;
-    line-height: 2.5em;
+    line-height: 2.2em;
     margin-bottom: 50px;
+    font-size: 22px;
 }
 
 .son-list{
     padding-left: 20px;
+    margin-bottom: 25px;
     list-style-type: none;
 }
 
+.son-list-symbol{
+    display: inline-block;
+	width: 25px;
+	height: 25px;
+    border-radius: 50%;
+    line-height: 23px;
+}
+
+.son-list-symbol-green{
+    color: green;
+    border: 1.5px solid green;
+}
+
+.son-list-symbol-red{
+    color: red;
+    border: 1.5px solid red;
+}
