@@ -7,7 +7,14 @@
 }
 
 .title{
+    margin-left: 20px;
     margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#title{
+    vertical-align: middle;
 }
 
 main{
@@ -22,6 +29,7 @@ main{
 
 #container-buttons{
     border-bottom: 2px solid #F6F8F9;
+    border-top: 70px solid #F6F8F9;
 }
 
 .buttons{
@@ -76,4 +84,43 @@ main{
 .son-list-symbol-red{
     color: red;
     border: 1.5px solid red;
+}
+
+.son-list-category{
+    display: inline-block;
+    height: 30px;
+    border-radius: 30%;
+    border-color: none;
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: 27px;
+    color: white;
+}
+
+.editorial{
+    background-color: #45ABEA;
+}
+
+#purple{
+    background-color: #9C72E4;
+}
+
+#green{
+    background-color: #64C0A9;
+}
+
+#orange{
+    background-color: #F29E33;
+}
+
+#pink{
+    background-color: #D963A1;
+}
+
+#yellow{
+    background-color: #B0C926;
+}
+
+#container-list{
+    border-bottom: 70px solid #F6F8F9;
 }
