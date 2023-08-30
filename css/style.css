@@ -11,14 +11,20 @@
     margin-bottom: 30px;
     font-size: 50px;
     font-weight: bolder;
+    background-color: white;
+    padding: 10px;
 }
 
 #title{
     vertical-align: middle;
 }
 
-main{
+body{
     background-color: #F6F8F9;
+}
+
+.CONTAINER{
+    padding: 20px;
 }
 
 .container{
@@ -29,11 +35,9 @@ main{
 
 #container-buttons{
     border-bottom: 2px solid #F6F8F9;
-    border-top: 70px solid #F6F8F9;
 }
 
 .buttons{
-    margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
     padding-left: 20px;
@@ -74,6 +78,7 @@ main{
 	height: 25px;
     border-radius: 50%;
     line-height: 23px;
+    text-align: center;
 }
 
 .son-list-symbol-green{
@@ -119,8 +124,4 @@ main{
 
 #yellow{
     background-color: #B0C926;
-}
-
-#container-list{
-    border-bottom: 70px solid #F6F8F9;
 }
